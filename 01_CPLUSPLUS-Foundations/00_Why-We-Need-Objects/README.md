@@ -5,7 +5,7 @@ As long as you know how to do procedural programming, you are good to go.
 A simple traditional C++ program will lead you to many places.
 Like the one below:
 
-```
+```cpp
 #include <stdio.h>
 
 int main()
@@ -22,7 +22,7 @@ Just remember your variables and you do not have to worry anything.
 
 For example, you are defining a name, age and savings variables.
 You can simply do that like this:
-```
+```cpp
 int main()
 {
     string name;
@@ -40,7 +40,7 @@ int main()
 If you are defining multiple instance of this, just name them with different namings.
 Like we can define name, age and savings for p1 and p2.
 
-```
+```cpp
 int main()
 {
     string p1_name;
@@ -61,7 +61,7 @@ That's a lot of unnecessary coding to do.
 So, what we can do is to introduce an object with the data structure we previously defined: name, age and savings.
 Just simply define the variables we have in a public specifier enclosed by the class keyword.
 
-```
+```cpp
 class Person
 {
     public:
@@ -73,7 +73,7 @@ class Person
 
 Inside your main function, you can now declare the p1 and p2 as objects without creating multiple variables.
 
-```
+```cpp
 int main()
 {
     Person p1;
